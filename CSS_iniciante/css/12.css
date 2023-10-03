@@ -1,0 +1,31 @@
+a{
+    color:white;
+}
+a:hover{
+    background-color: blue;
+}
+.enlace{
+    font-weight: bold;
+    color:white;
+    text-decoration: none;
+}
+.enlace:hover {
+    background-color: aqua;
+}
+
+li{
+    display: inline;
+}
+
+a{
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 1%;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 31%;
+    color: white;
+    background-color: green;
+}

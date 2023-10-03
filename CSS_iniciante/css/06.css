@@ -1,0 +1,29 @@
+.intro {
+    text-transform: uppercase;
+}
+.outro{
+    text-transform: capitalize;
+}
+.intro1 {
+    text-decoration: underline;
+}
+.outro1 {
+    text-decoration: line-through;
+}
+h1{
+    text-shadow: 3px 2px 3px red;
+}
+h2{
+    text-shadow: 3px 2px 3px red,
+    2px 2px 1px blue;
+}
+h3{
+    text-align: center;
+}
+.intro3{
+    line-height: 1.8;
+}
+.intro4{
+    letter-spacing: 3px;
+    word-spacing: 3px;
+}

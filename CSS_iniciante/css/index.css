@@ -1,0 +1,100 @@
+h1{
+    font-size: 38px;
+    color: black;
+}
+#position{
+    font-size:18px;
+}
+.summary{
+    font-size:24px;
+}
+h2{
+    color: #2f5A78;
+    font-size: 20px;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #2f5A78;
+}
+body{
+    font-family: Arial, serif;
+}
+#position {
+    font-size: 18px;
+    font-weight: bold;
+}
+h1{
+    font-size: 28px;
+    text-transform: uppercase;
+}
+.summary {
+    font-size: 16px;
+    line-height: 20px;
+}
+header {
+    text-align: center;
+    background-color: #eeeeee;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+#copyright{
+    text-align: center;
+}
+section, footer{
+    padding: 2px 10px;
+}
+ul{
+    margin: 0px;
+}
+li b{
+    color:#2f5A78;
+}
+li {
+    margin-bottom: 5px;
+}
+footer a{
+    color: #e99f4b;
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+table{
+border: 1px solid #000000;
+}
+td, th{
+    border-collapse: collapse;
+    padding: 5px ;
+
+}
+th{
+    background-color: #2f5A78;
+    color:#ffffff;
+}
+
+input[type='text'], input[type='email']{
+    border: 1px solid #2f5A78;
+    width: 150px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+textarea{
+    border: 1px solid #2f5A78;
+    width: 203px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+label {
+    font-weight: bold;
+    color: #2f5A78;
+}
+input[type='button'] {
+    background-color: #2f5A78;
+    border: none;
+    border-radius: 7px;
+    padding: 7px 15px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+input[type='button']:hover {
+    background-color: #4F4C4C;
+}

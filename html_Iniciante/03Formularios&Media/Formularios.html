@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formularios</title>
+</head>
+<body>
+    <!--
+        Los Formularios permiten a los usuarios introducir datos, que son procesados por el sitio web
+        Un formulario contiene controles, incluyen cuadros de texto, botones, casillas de verificacion
+        los elementos de un formulario estan contenidos dentro de la etiqueta <form>
+        Caja de texto
+        El elemento input te permite crear varios elementos de  formulario
+        su atributo type define e tipo de elemento
+    -->
+
+    <form action="">
+        <label for="name1" >Name</label>
+        <input type="text" id="name1">
+        <br><br>
+        <label for="correo">Email</label>
+        <input type="email" id="correo">
+        <br><br>
+        <label for="celular">Telefono</label>
+        <input type="tel" id="celular">
+        <br><br>
+    </form>
+
+<!--
+    Etiquetas
+    Los elementos del formulario pueden tener etiquetas
+    Para añadir etiquetas a un elemento, primero hay que añadir una tributo id al mismo
+    El valor de id debe ser unico en toda la pagina.
+    ahora podemos crear un elemento <label> asociado con un id que hemos creado
+    toma en cuenta que el for se asocia con el id del elemento formulario
+-->
+
+    <form action="">
+        <label for="name">nombre</label>
+        <input type="text" id="name">
+        <br><br>
+    </form>
+<!--
+    Placeholder Las cajas de texto tambien pueden tener texto placeholder
+    que describa el valor que se espera en el campo
+-->
+ <form action="">
+        <label for="name2" >Name</label>
+        <input type="text" id="name2" placeholder="Joah Smith">
+        <br><br>
+        <label for="correo2">Email</label>
+        <input type="email" id="correo2" placeholder="name@domian.com">
+        <br><br>
+        <label for="celular2">Telefono</label>
+        <input type="tel" id="celular2" placeholder="+591 67676767">
+        <br><br>
+    </form>
+
+</body>
+</html>

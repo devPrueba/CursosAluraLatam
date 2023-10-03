@@ -1,0 +1,36 @@
+.boxi {
+    background-color: red;
+    height: 100px;
+    padding: 10px;
+}
+
+.boxi1 {
+    background-image: url("https://sololearnassets.azureedge.net/sl-logo.png");
+    height: 100px;
+    padding: 10px;
+}
+
+.boxi2 {
+    background-image: url("https://sololearnassets.azureedge.net/sl-logo.png");
+    background-repeat: repeat-x;
+    height: 200px;
+    padding: 10px;
+}
+
+.boxi3 {
+    background-image: url("https://sololearnassets.azureedge.net/sl-logo.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 150px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.boxi4 {
+    background-image: url("https://sololearnassets.azureedge.net/sl-logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 150px;
+    padding: 10px;
+    border: 1px solid black;
+}

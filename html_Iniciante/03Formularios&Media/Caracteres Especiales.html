@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Caracteres Especiales</title>
+</head>
+<body>
+<!--
+    En HTML, los caracteres <, >, ", ' y & son caracteres especiales y forman parte de la propia sintaxis HTML. Pero,
+    ¿y si queremos incluir estos caracteres especiales en nuestro texto? Por ejemplo, queremos incluir los signos < y >
+    en un párrafo:
+    Esto romperá nuestro marcado, ya que los signos < y > se interpretan como una etiqueta HTML.
+-->
+<p> A paragraph is created using the
+<p> tag </p>
+
+<!--
+    Caracteres especiales:
+    Para incluir caracteres especiales en el texto, necesitamos usar referencias de caracteres. Estos son códigos especiales
+    que representan caracteres; comienzan con un ampersand (&) y terminan con un punto y coma (;). El signo < se representa
+    mediante & lt; mientras que > está representado por & gt;
+
+-->
+<p> A paragraph is created using the &lt;p&gt; tag </p>
+
+<!--
+    Especial Caracteres
+    Aquí hay una lista de los personajes con su código de referencia correspondiente
+    Los códigos se pueden recordar porque usan texto descriptivo: lt significa menor que, gt - mayor que, etc.
+-->
+<strong>Para &lt; </strong>
+<br>
+<strong>Para &gt; </strong>
+<br>
+<strong>Para &quot; </strong>
+<br>
+<strong>Para &apos; </strong>
+<br>
+<strong>Para &amp; </strong>
+
+<!--
+    Caracteres especiales
+    Otro carácter de uso común en HTML es el espacio de no separación. Es un espacio que no se dividirá en una nueva
+    línea y se crea usando & nbsp; Dos palabras separadas por un espacio ininterrumpido se mantendrán juntas. Por ejemplo:
+    Otro uso común del espacio de no separación es evitar que los navegadores trunquen los espacios en las páginas HTML.
+    Si escribe 5 espacios en su texto, el navegador eliminará 4 de ellos, pero si usa 10 espacios que no se rompen, se
+    conservarán todos.
+
+-->
+<br>
+<b>Speed:</b> 42&nbsp;mph
+
+<!--
+    Comentarios
+    Puede agregar comentarios a su código HTML. El navegador no muestra comentarios, pero ayudan a documentar el HTML y
+    agregan descripciones, recordatorios y otras notas. Se debe colocar un comentario dentro de <! -- y -- >:
+    comentarios También puede comentar elementos. Esto hace que desaparezcan de la página, pero permanezcan en el código
+    Esto puede ser útil si tiene algún código de trabajo en progreso o si no desea eliminar el código de la página todavía.
+-->
+
+<p>some text</p>
+<!-- <p>some other text</p> -->
+
+
+
+
+</body>
+</html>

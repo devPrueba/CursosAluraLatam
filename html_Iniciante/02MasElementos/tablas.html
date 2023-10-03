@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tablas</title>
+</head>
+<body>
+
+<!--
+    Una tabla es un conjunto de filas y columnas HTML soporta tablas para mostrar datos tabulados
+    Una tabla se crea con la etiqueta <table>
+    La etiqueta <table> debe incluir a etiqueta <tr> para cada fila de la tabla
+    La etiqueta <td> crea una celda de la tabla que esta contenida dentro de un
+    <tr> y contiene el contenido de la celda
+    La mayoria de los navegadores no incluyen bordes por defecto
+    pero podemos añadir el atributo border para la tabla
+ -->
+
+
+<table border="1">
+    <tr>
+        <td>amy</td>
+        <td>42</td>
+    </tr>
+    <tr>
+        <td>bob</td>
+        <td>19</td>
+    </tr>
+</table>
+
+<!--
+    La etiqueta <th> es igual a la <td> se utiliza para añadir una encabezado a la tabla
+    El encabezado es una coleccion de celdas <th> que definen el contenido de una celda o fila
+    centran automaticamente en la celda y estan en negrita
+    otro atributo util es el colspan, que permite que una columna abarque varias celdas
+
+-->
+<br>
+<table border="1">
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+    </tr>
+    <tr>
+        <td>amy</td>
+        <td>42</td>
+    </tr>
+    <tr>
+        <td>bob</td>
+        <td>19</td>
+    </tr>
+</table>
+
+<br>
+
+<table border="1">
+    <tr>
+        <th colspan="3"> users</th>
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Country</th>
+    <tr>
+        <td>Amy</td>
+        <td>42</td>
+        <td>USA</td>
+    </tr>
+    <tr>
+        <td>Bob</td>
+        <td>19</td>
+        <td>Italy</td>
+    </tr>
+</table>
+
+<!--
+    AL igual que en el caso de las columnas una celda puede abarcar varias filas
+    Esto se consegui utilizando el atributo rowspam
+-->
+<br>
+<table border="1">
+    <tr>
+        <th>Mon</th>
+        <th>True</th>
+        <th>Wed</th>
+    <tr>
+        <td>Soccer</td>
+        <td rowspan="2">Free Time</td>
+        <td>Math Class</td>
+    <tr>
+        <td>Biology</td>
+        <td>Travel</td>
+    </tr>
+    </table>
+
+<!--
+Ejercicio
+-->
+
+<h1><em>Skills</em></h1>
+<table border="1">
+    <tr>
+        <th>Technologies </th>
+        <td>Python </td>
+        <td>Java </td>
+        <td>Sprint Boot </td>
+    </tr>
+    <tr>
+        <th>Soft Skills </th>
+        <td>Problem Solving </td>
+        <td>Team Work </td>
+        <td>Flexibility </td>
+    </tr>
+    
+</table>
+
+</body>
+</html>

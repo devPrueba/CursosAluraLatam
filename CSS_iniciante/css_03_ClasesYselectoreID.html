@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Clases y selectores ID</title>
+    <link rel="stylesheet" href="css/03.css">
+</head>
+<body>
+<!--
+    A menudo tenemos que dirigirnos a un subconjunto de elementos
+    sin cambiar los demas. Esto se puede hacer utilizando la clase selector
+    puedes añadir una atributo clase a los elementos
+-->
+
+<p class="intro">CSS is awesome</p>
+<p>some other text goes here</p>
+<!--
+    Selector de clase
+    .intro{
+        color:red;
+        background-color:green;
+    }
+    ten en cuenta que los selectores de clase tienen que comenzar con un punto
+    seguido del nombre de la clase que hemos dado a nuestros elemento
+    puedes agragar la regla de estilo de .intro a cualquier elemento de su pagina
+    con el atributo clase dentro de esa etiqueta
+-->
+<!--
+   Selectores
+   Tambien podemos crear selectores basados en los elementos del atributo ID
+   para eso se utiliza el simbolo de almohadilla (#) antes del valor id
+   #intro{
+        color:red;
+        background-color:green;
+   }
+   Esto dirigira a elemento con id="intro" en nuestro HTML
+
+   Tambien podemos orientar los elementos en funcion de su ubicacion
+   Por ejemplo: hay dos elmentos <Strong> uno dentro de un parrafo y otro dentro de un elemento de lista
+   asi podemos apuntar solo al alamento de lista
+
+   li strong{
+        color:purple;
+   }
+-->
+<p id="intro1">some text</p>
+<p class="intro1">some text</p>
+
+<!--
+    Herencia de estilos
+    Los estilos CSS establecidos en los elementos padres son heredados por los elementos hijos
+    Por ejemplo si se establece un color y fuente en un elemento los elementos dentro de el
+    tambien seran utilizados con ese color y fuente, a menos que hayas aplicado diferentes valores
+    de color y fuente directamente en ellos.
+    No todos los estilos se heredan, como el ancho y otras propiedades de diseño similares
+-->
+<header>
+    <h1>some title</h1>
+    <p>some text</p>
+    <p>another text</p>
+</header>
+
+</body>
+</html>

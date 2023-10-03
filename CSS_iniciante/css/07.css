@@ -1,0 +1,17 @@
+p{
+    margin: 5px 10px 5px 10px;
+    padding: 4px 7px 4px 7px;
+    border: 3px solid black
+
+}
+/*
+    margin: 5px 10px 5px 10px;
+    equivale a:
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-left: 5px;
+    margin-top: 10px;
+        */
+.box{
+    border:3px solid black;
+}

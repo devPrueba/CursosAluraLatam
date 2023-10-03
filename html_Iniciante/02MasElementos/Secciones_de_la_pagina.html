@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Secciones de la Pagina</title>
+</head>
+<body>
+
+<style>
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Esto garantiza que el contenedor ocupe toda la altura de la ventana */
+}
+
+table {
+    width: 50%;
+    height: 500px;
+    margin: auto; /* Esto centrará la tabla horizontalmente */
+}
+
+th, td {
+    text-align: center; /* Centra el texto horizontalmente dentro de la celda */
+    vertical-align: middle; /* Centra el texto verticalmente dentro de la celda */
+    width: 50%;
+    height: 20%;
+}
+</style>
+
+    <table border="2">
+       <tr>
+           <th colspan="4" rowspan="1"> header </th>
+       </tr>
+       <tr>
+           <th colspan="2">nav</th>
+       </tr>
+        <tr>
+            <th>section</th>
+            <th rowspan="2">aside</th>
+        </tr>
+        <tr><th> articles </th></tr>
+        <tr><th colspan="2">footer</th></tr>
+    </table>
+
+</body>
+</html>

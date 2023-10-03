@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Checkboxes</title>
+</head>
+<body>
+<!--
+    El elemento de entrada se puede utilizar para hacer casillas de verificación.
+    Colocamos las etiquetas después de las entradas, de modo que aparezcan junto a las casillas de verificación a la derecha.
+
+-->
+<h2>Choose your interests:</h2>
+<input type="checkbox" id="tech">
+<label for="tech">Tech</label><br>
+
+<input type="checkbox" id="sports">
+<label for="sports">Sports</label><br>
+
+<input type="checkbox" id="books">
+<label for="books">Books</label>
+
+<!--
+    También podemos hacer botones de radio, para que solo se pueda marcar uno de ellos. Para agrupar los botones de
+    radio, debemos darles el mismo nombre, usando el atributo de nombre:
+    Ahora, solo se puede seleccionar una de las opciones.
+-->
+
+<h2>Title:</h2>
+<input type="radio" name="title" id="mr">
+<label for="mr">Mr</label><br>
+
+<input type="radio" name="title" id="ms">
+<label for="ms">Ms</label><br>
+
+<input type="radio" name="title" id="mrs">
+<label for="mrs">Mrs</label>
+<br><br>
+
+<!--
+    El elemento de entrada se utiliza para tomar una sola línea de texto como entrada. Para hacer un campo de entrada de
+    varias líneas, use el elemento <textarea>:
+    Tenga en cuenta que el área de texto debe tener una etiqueta de cierre.
+
+-->
+<label for="message">Mensaje:</label>
+<br><br>
+<textarea id="message">
+</textarea>
+<br><br>
+
+<!--
+    Drop-down
+    Un menú desplegable permite a los usuarios seleccionar una de múltiples opciones. Se puede crear usando
+    el elemento <select>:
+    Cada opción del menú desplegable es un elemento <option>
+-->
+<label for="option">Elija un color :</label>
+<select id="option">
+    <option>Red</option>
+    <option>Blue</option>
+    <option>Orange</option>
+</select>
+
+<!--
+    Buttons
+    Los botones se pueden crear usando el elemento <button>:
+    Hacer clic en el botón no hará nada en este momento. Necesitamos JavaScript para agregar funcionalidad a la página.
+    Aprenderemos cómo hacerlo en el curso de JavaScript.
+    Los botones también se pueden crear utilizando el elemento de entrada:
+    enga en cuenta que el texto del botón se proporciona utilizando el atributo de valor.
+-->
+<br><br>
+<button>Send</button>
+<br><br>
+<input type="button" value="Send">
+<input type="reset" value="Reset">
+
+<!--
+Formulario de contacto Hagamos un formulario de contacto real usando los elementos que aprendimos:
+
+-->
+<br>
+<form>
+    <h2>Contact Us</h2>
+    <label for="type">Type: </label>
+    <select id="type">
+        <option>General</option>
+        <option>Payment Issue</option>
+        <option>Other</option>
+    </select><br><br>
+    <label for="name">Name: </label>
+    <input type="text" id="name"><br><br>
+    <label for="correo01">Correo: </label>
+    <input type="text" id="correo01"><br><br>
+    <label for="message">Message: </label><br>
+    <br>
+    <textarea></textarea><br>
+    <input type="button" value="Send">
+    <input type="button" value="Resend">
+
+</form>
+
+</body>
+</html>

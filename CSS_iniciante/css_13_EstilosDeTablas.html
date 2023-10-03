@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Estilos de tablas</title>
+    <link rel="stylesheet" href="../CSS_iniciante/css/13.css">
+</head>
+<body>
+<!--
+Una tabla HTML no tiene un aspecto atractivo por defecto:
+-->
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+    </tr>
+    <tr>
+        <th>Amy</th>
+        <th>42</th>
+    </tr>
+    <tr>
+        <th>Bob</th>
+        <th>19</th>
+    </tr>
+</table>
+<!--
+Las celdas de la tabla tiene espacio entre ellas por defecto, lo que hace que aparescan bordes dobles.
+La propiedad <border-collapse> establece que los border se contraigan en uno solo, haciendo que la
+tabla se vea mucho mejor.
+-->
+
+<!--
+Tambien podemos proporcionar algunos padding a las celdas, para dar al contenido un poco de espacio para "breathe"
+-->
+<!--
+Ahora podemos asignar el color de fondo a nuestras celdas de encabezados
+-->
+<!--
+Podemos hacer que las filas sean aun mas interesantes. CSS proporciona un pseuod selector nth-child()
+que nos permite seleccionar filas especificas y darles estilos
+Las filas se cuentan de arriba haci abajo , incluyendo las filas de encabezamiento
+-->
+<!--
+El selector nth-child(3) te permite tambien definir reglas para las filas ,en lugar de proporcionar el numero
+podemos usar las filas pares impares, por separado dandole, difententes background colors:
+Aplica automaticamente los estilos a las filas pares y impares
+-->
+</body>
+</html>

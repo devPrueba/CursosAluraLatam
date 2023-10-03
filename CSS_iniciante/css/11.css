@@ -1,0 +1,20 @@
+ul{
+    list-style-type: square;
+}
+.lista {
+    list-style-type: circle;
+    list-style-position: inside;
+}
+.lista2{
+    list-style-image: url("../../1828-layouts-responsivos-aula5/img/apple.png");
+}
+
+.lista3{
+    list-style: square outside url("../../1828-layouts-responsivos-aula5/img/android.png");
+}
+/*
+Esto es lo mismo que lo que se indica en el codigo de arriba
+    list-style-type: circle;
+    list-style-position: inside;
+    list-style-image: url("../../1828-layouts-responsivos-aula5/img/apple.png");
+*/

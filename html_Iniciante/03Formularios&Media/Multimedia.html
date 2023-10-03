@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Multimedia</title>
+</head>
+<body>
+<!--
+    El elemento de audio le permite agregar un reproductor de audio a la página. El archivo de audio se especifica mediante el atributo src:
+-->
+
+<audio src="audio.mp3">
+   Audio not supported
+</audio>
+
+<!--
+    Controls
+    El atributo de controles muestra los controles del reproductor:
+    Ahora, al ejecutar el código, el navegador mostrará un reproductor de audio que reproduce la pista dada.
+-->
+
+<audio src="audio.mp3" controls>
+  Audio not supported
+</audio>
+
+<!--
+    Looping
+    El atributo de bucle hace que el reproductor comience automáticamente a reproducir la pista cuando llega al final.
+    También hay un atributo de reproducción automática que hace que el audio comience a reproducirse automáticamente;
+    sin embargo, la mayoría de los navegadores desactivan esta función, ya que es molesta para la mayoría de los usuarios.
+-->
+<br>
+<audio src="audio.mp3" controls [b]loop[/b]>
+  Audio not supported
+</audio>
+
+<!--
+    Multiple Sources
+    Los diferentes navegadores admiten diferentes formatos de audio. Para maximizar la compatibilidad, el elemento de audio
+    permite agregar diferentes formatos de la misma pista de audio usando el elemento <source>:
+    Ahora, si el navegador no puede reproducir la primera fuente, intentará reproducir la segunda.
+
+-->
+<br>
+<audio controls>
+  <source src="audio.mp3" type="audio/mpeg">
+  <source src="audio.ogg" type="audio/ogg">
+</audio>
+
+<!--
+    Video
+    Reproducir video es muy similar al elemento de audio:v
+    Como puede ver, el elemento de video admite la misma sintaxis y los mismos atributos
+    (controles, reproducción automática, bucle) que el elemento de audio.
+-->
+<br><br>
+<video controls>
+ <source src="video.mp4" type="video/mp4">
+ <source src="video.ogg" type="video/ogg">
+ Video is not supported by your browser
+</video>
+
+<!--
+    Video
+    Puede especificar la altura y el ancho del reproductor de video:
+    Independientemente del tamaño definido, el video mantendrá su relación de aspecto.
+
+-->
+<br>
+<video controls width="480px" height="300px">
+  <source src="video.mp4" type="video/mp4">
+  <source src="video.ogg" type="video/ogg">
+  Video is not supported by your browser
+</video>
+
+<!--
+    Insertar Videos de you tube
+    Otra forma de incrustar videos en una página es usar el elemento <iframe>. Por ejemplo, para incrustar un video de
+    YouTube, busque un video que le guste, haga clic en el botón Compartir debajo del video y seleccione el botón
+    Incrustar. Esto le dará un código con un elemento <iframe>, como este:
+
+-->
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/o8kT5c_4PAc"
+frameborder="0" allowfullscreen></iframe>
+
+
+
+
+</body>
+</html>
